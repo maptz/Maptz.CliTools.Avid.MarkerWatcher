@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.CliTools.Avid.MarkerWatcher.Tool", "Maptz.CliTools.Avid.MarkerWatcher.Tool\Maptz.CliTools.Avid.MarkerWatcher.Tool.csproj", "{1CA3EDFC-197B-4B90-958D-EE3B4B6B3AE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.CliTools.Avid.MarkerWatcher.Engine", "Maptz.CliTools.Avid.MarkerWatcher.Engine\Maptz.CliTools.Avid.MarkerWatcher.Engine.csproj", "{2FA5CD62-21CA-4C78-A63A-A38EA7CF0F02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CA3EDFC-197B-4B90-958D-EE3B4B6B3AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CA3EDFC-197B-4B90-958D-EE3B4B6B3AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CA3EDFC-197B-4B90-958D-EE3B4B6B3AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CA3EDFC-197B-4B90-958D-EE3B4B6B3AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA5CD62-21CA-4C78-A63A-A38EA7CF0F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA5CD62-21CA-4C78-A63A-A38EA7CF0F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA5CD62-21CA-4C78-A63A-A38EA7CF0F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA5CD62-21CA-4C78-A63A-A38EA7CF0F02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D0473A5-5215-43C6-B6FC-F8B03CA796E0}
+	EndGlobalSection
+EndGlobal

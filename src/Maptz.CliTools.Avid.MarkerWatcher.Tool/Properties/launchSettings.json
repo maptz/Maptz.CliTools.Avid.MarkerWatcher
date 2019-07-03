@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Maptz.CliTools.Avid.MarkerWatcher.Tool": {
+      "commandName": "Project",
+      "commandLineArgs": "convert -i \"C:\\Users\\steph\\OneDrive\\Desktop\\MarkerWatch\""
+    }
+  }
+}
