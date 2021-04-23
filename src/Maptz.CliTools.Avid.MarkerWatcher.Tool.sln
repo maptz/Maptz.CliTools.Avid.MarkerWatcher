@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.CliTools.Avid.MarkerW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.CliTools.Avid.MarkerWatcher.Engine", "Maptz.CliTools.Avid.MarkerWatcher.Engine\Maptz.CliTools.Avid.MarkerWatcher.Engine.csproj", "{2FA5CD62-21CA-4C78-A63A-A38EA7CF0F02}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.Editing.Avid.DS", "..\..\..\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.DS\Maptz.Editing.Avid.DS.csproj", "{D81B13A4-CCE0-4F10-83BD-C4C8F2D48D7E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maptz.Editing.Avid.Markers", "..\..\..\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Maptz.Editing.Avid.Markers.csproj", "{9079141A-0CCC-45E8-B34B-798DF8D28D6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External Libs", "External Libs", "{FDBA477A-B39A-4296-BA85-97D99E6B6240}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,21 @@ Global
 		{2FA5CD62-21CA-4C78-A63A-A38EA7CF0F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FA5CD62-21CA-4C78-A63A-A38EA7CF0F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FA5CD62-21CA-4C78-A63A-A38EA7CF0F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D81B13A4-CCE0-4F10-83BD-C4C8F2D48D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D81B13A4-CCE0-4F10-83BD-C4C8F2D48D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D81B13A4-CCE0-4F10-83BD-C4C8F2D48D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D81B13A4-CCE0-4F10-83BD-C4C8F2D48D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9079141A-0CCC-45E8-B34B-798DF8D28D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9079141A-0CCC-45E8-B34B-798DF8D28D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9079141A-0CCC-45E8-B34B-798DF8D28D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9079141A-0CCC-45E8-B34B-798DF8D28D6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D81B13A4-CCE0-4F10-83BD-C4C8F2D48D7E} = {FDBA477A-B39A-4296-BA85-97D99E6B6240}
+		{9079141A-0CCC-45E8-B34B-798DF8D28D6A} = {FDBA477A-B39A-4296-BA85-97D99E6B6240}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4D0473A5-5215-43C6-B6FC-F8B03CA796E0}

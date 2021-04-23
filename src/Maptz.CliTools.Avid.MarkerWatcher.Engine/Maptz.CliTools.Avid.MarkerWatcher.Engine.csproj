@@ -9,4 +9,9 @@
     <PackageReference Include="Microsoft.Extensions.Options" Version="5.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.DS\Maptz.Editing.Avid.DS.csproj" />
+    <ProjectReference Include="..\..\..\..\netcorelibs\maptz.editing.avid\src\Maptz.Editing.Avid.Markers\Maptz.Editing.Avid.Markers.csproj" />
+  </ItemGroup>
+
 </Project>
